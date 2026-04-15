@@ -1,16 +1,13 @@
 # layout_flutter
+Nama: Lovie Jechonia Tonimba
+NIM: 244107060101
+Kelas: SIB 2G
 
-A new Flutter project.
+Tugas Praktikum 1: Penjelasan Praktikum 1 - 4
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Di praktikum ini, saya belajar cara menyusun tampilan layout Flutter supaya rapi dan terstruktur. 
+Saya membagi layar menjadi beberapa bagian: 
+1. Title Section untuk judul wisata, dimana disini pakai Expanded agar teksnya tidak berhimpitan dengan bintang
+2. Button Section untuk deretan tombol CALL, ROUTE, dan SHARE yang jaraknya otomatis rapi karna menggunakan spaceEvenly
+3. Text Section untuk isi deskripsi gambar. Semua bagian ini digabung jadi satu di dalam ListView agar aplikasinya bisa di scroll ke bawah dan tidak error jika isinya panjang. 
+Kesimpulannya di sini saya belajar cara mengatur posisi widget supaya terlihat profesional dan responsif di layar HP nanti.
