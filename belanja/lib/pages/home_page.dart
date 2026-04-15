@@ -42,12 +42,15 @@ class HomePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Expanded(
-                    child: Image.network(
-                      item.image,
-                      fit: BoxFit.cover,
-                      width: double.infinity,
-                      errorBuilder: (context, error, stackTrace) =>
-                          const Icon(Icons.broken_image, size: 50),
+                    child: Hero(
+                      tag: item.name, 
+                      child: Image.network(
+                        item.image,
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                        errorBuilder: (context, error, stackTrace) => 
+                            const Icon(Icons.broken_image, size: 50),
+                      ),
                     ),
                   ),
                   Padding(
