@@ -1,5 +1,6 @@
 import 'package:belanja/models/item.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class HomePage extends StatelessWidget {
   final List<Item> items = [
@@ -15,6 +16,18 @@ class HomePage extends StatelessWidget {
         image: 'img/salt.png',
         stock: 50,
         rating: 4.0),
+    Item(
+        name: 'Cooking oil',
+        price: 25000,
+        image: 'img/cookingOil.png',
+        stock: 20,
+        rating: 4.3),
+    Item(
+        name: 'Soy Sauce',
+        price: 15000,
+        image: 'img/soySauce.png',
+        stock: 8,
+        rating: 5.0),
   ];
 
   @override
@@ -57,7 +70,9 @@ class ProductCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () => Navigator.pushNamed(context, '/item', arguments: item),
+      onTap: () {
+        context.push('/item', extra: item);
+      },
       child: Card(
         elevation: 4,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
@@ -68,7 +83,7 @@ class ProductCard extends StatelessWidget {
             Expanded(
               child: Hero(
                 tag: item.name,
-                child: Image.network(item.image,
+                child: Image.asset(item.image,
                     fit: BoxFit.cover, width: double.infinity),
               ),
             ),

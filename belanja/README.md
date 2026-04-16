@@ -1,16 +1,8 @@
 # belanja
+Nama: Lovie Jechonia Tonimba
+NIM: 244107060101
 
-A new Flutter project.
+Tugas Praktikum 2 (Layout dan Navigasi)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Implementasi Navigasi GoRouter: 
+Pada praktikum ini, saya berhasil memodifikasi navigasi aplikasi menggunakan plugin go_router untuk menggantikan sistem rute bawaan Flutter. Perubahan ini dilakukan dengan mendefinisikan MaterialApp.router pada file main.dart, sehingga perpindahan halaman serta pengiriman data objek antar layar menjadi lebih ringkas dan mudah dikelola.
