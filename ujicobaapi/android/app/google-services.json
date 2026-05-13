@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "72855695898",
+    "project_id": "ujicobaapi-10",
+    "storage_bucket": "ujicobaapi-10.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72855695898:android:e57aa8d2bcc83abc3017a3",
+        "android_client_info": {
+          "package_name": "com.example.ujicobaapi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxNeqNHZH1j9RMkqSUxquYME1wToSpZwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
